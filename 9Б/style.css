@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    background-color: wheat;
+    background-image: url("https://i.postimg.cc/tRcYk91c/photo-2025-01-24-21-59-11.jpg");
+}
+
+.zagolovok{
+    background-image: url("https://i.postimg.cc/tRcYk91c/photo-2025-01-24-21-59-11.jpg");
+    background-size:initial;
+    background-repeat: no-repeat;
+    min-height: 200px; 
+    text-align: center;
+    display: flex; /* Enable flexbox for centering */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    font-size: 100px;
+    font-weight: 500;
+    color: rgb(48, 161, 57);
+    background-position: center; /* Центрувати картинку */
+}
+
+.ponedilok{
+    background-image: url("https://i.postimg.cc/9XBjXb2Y/photo-2025-01-24-21-59-11-3.jpg");
+    min-height: 200px; 
+    display: flex; /* Enable flexbox for centering */
+    flex-direction: row; /* Arrange elements from left to right */
+    align-items: center; /* Center content vertically */
+    text-align: center;
+    justify-content: space-between; /* Розподіляємо елементи по краях */
+    justify-content: center; /* Центруємо вміст по горизонталі */
+    background-position: center; /* Центрувати картинку */
+}
+
+.vivtorok{
+    background-image: url("https://i.postimg.cc/VL5HyWk6/photo-2025-01-24-21-59-11-2.jpg");
+    min-height: 200px; /* Enable flexbox for centering */
+    display: flex; /* Enable flexbox for centering */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    background-position: center; /* Центрувати картинку */
+}
+
+.sereda{
+    background-image: url("https://i.postimg.cc/jS7g2qNY/photo-2025-01-24-22-30-12.jpg");
+    min-height: 200px; 
+    display: flex; /* Enable flexbox for centering */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    background-position: center; /* Центрувати картинку */
+}
+
+.chetverg{
+    background-image: url("https://i.postimg.cc/ZqPwPfVf/photo-2025-01-24-21-59-10.jpg");
+    min-height: 200px; 
+    display: flex; /* Enable flexbox for centering */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    background-position: center; /* Центрувати картинку */
+}
+
+.pitnica{
+    background-image: url("https://i.postimg.cc/ydvntDqc/photo-2025-01-24-21-59-11-4.jpg");
+    min-height: 200px; 
+    display: flex; /* Enable flexbox for centering */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    background-position: center; /* Центрувати картинку */
+}
+
+
+
+.button {
+    text-decoration: none;
+    color: bisque;
+    border-radius: 10px;
+    padding:10px;
+    margin: 5px;
+    transform: scale(1.0);
+    background-color: rgba(0, 0, 0, 0.1); /* Напівпрозорий фон */
+    backdrop-filter: blur(5px);
+    transition: background-color 0.3s ease, backdrop-filter 0.3s ease-in-out, transform 0.5s ease;
+}
+
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    /*justify-content: center;*/
+    width: 40%;
+    
+}
+
+.button:hover {
+    backdrop-filter: blur(1px);
+    background-color: rgba(0, 0, 0, 0.05);
+    transform: scale(1.05);
+    transition: background-color 0.3s ease, backdrop-filter 0.3s ease-in-out, transform 0.5s ease;
+    
+}
+
+/*.texts {
+    width: 50%;
+    font-size: 50px;
+    /* Видаляємо властивості фону */
+  
+    /* Застосовуємо градієнт безпосередньо до тексту /
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: linear-gradient(to right, blue, purple);
+  }*/
+.texts {
+    width: 50%;
+    font-size: 50px;
+    font-weight: 500;
+    /*background: linear-gradient(to right, rgba(0, 100, 0, 0.9), rgba(0, 255, 0, 0.7));*/
+    backdrop-filter: blur(1px);
+    background-color: rgba(0, 200, 10, 0.7);
+    /*background-color:rgba(0, 255, 100, 0.7);*/
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+a {
+    target="_blank";
+}
